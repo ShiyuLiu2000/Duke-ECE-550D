@@ -1,0 +1,232 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/simulation/modelsim
+vaddition
+Z1 !s110 1695139246
+!i10b 1
+!s100 eM7OKL?zPR9_Plf:Ok73:2
+I9T28TmVmEP<Ta;QCnAoBe1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1695139069
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/addition.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/addition.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1695139246.000000
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/addition.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/addition.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU}
+Z7 tCvgOpt 0
+valu
+Z8 !s110 1695139247
+!i10b 1
+!s100 _c?89I?fnQ`YFzUkI22zH0
+I_G]0Ha5o?LAaeN9dS;I>Z2
+R2
+R0
+w1695103935
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1695139247.000000
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu.v|
+!i113 1
+R5
+R6
+R7
+valu_tb
+R8
+!i10b 1
+!s100 _VBMEf4SJmm`BE`nXKY=C0
+Ii0L@b2kL[QeC6ad2cWnOV3
+R2
+R0
+w1695104036
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu_tb.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/alu_tb.v|
+!i113 1
+R5
+R6
+R7
+vCSA_32bits
+R1
+!i10b 1
+!s100 I4AgQo=S:50aLJVZ3HM5C2
+IfaPDl`Jz@WYWCf=1;LRjh2
+R2
+R0
+w1695102446
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/CSA_32bits.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/CSA_32bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/CSA_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/CSA_32bits.v|
+!i113 1
+R5
+R6
+R7
+n@c@s@a_32bits
+vfull_adder
+R1
+!i10b 1
+!s100 cS<0=T5<3l_iK3`mTl0fL1
+IK=811DZ@YQGcXJ]o<0eTf1
+R2
+R0
+w1695078138
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/full_adder.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/full_adder.v|
+!i113 1
+R5
+R6
+R7
+vmux
+R1
+!i10b 1
+!s100 0k<HMe:1XhH7]<mb<:cUP0
+IDze^g00Pj3Ne:EJVV<@zQ0
+R2
+R0
+w1695080796
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux.v|
+!i113 1
+R5
+R6
+R7
+vmux_16bits
+R1
+!i10b 1
+!s100 RbLdZlFKZ>;<eXg[7g:`21
+I^OncDoAX8UAJNG_z1dAYc3
+R2
+R0
+w1695097667
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_16bits.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_16bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_16bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_16bits.v|
+!i113 1
+R5
+R6
+R7
+vmux_32bits
+R1
+!i10b 1
+!s100 XdQYkQB_`L5XA<hb2DQ6A3
+IXFY_hI<R2L2:Gh0:nF1Rb0
+R2
+R0
+w1695099368
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_32bits.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_32bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/mux_32bits.v|
+!i113 1
+R5
+R6
+R7
+vRCA_16bits
+R1
+!i10b 1
+!s100 j8BoQAc^7iJUS2@O^GeD@1
+I=GGY=Wdmfa79L9mMP=[l`2
+R2
+R0
+w1695078939
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/RCA_16bits.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/RCA_16bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/RCA_16bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/RCA_16bits.v|
+!i113 1
+R5
+R6
+R7
+n@r@c@a_16bits
+vsubtraction
+R8
+!i10b 1
+!s100 zNaBM00CGS?mI1TXH0`SQ0
+I]XUJ<aH0V3E`3Od256dTY3
+R2
+R0
+w1695139100
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/subtraction.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/subtraction.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/subtraction.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/subtraction.v|
+!i113 1
+R5
+R6
+R7

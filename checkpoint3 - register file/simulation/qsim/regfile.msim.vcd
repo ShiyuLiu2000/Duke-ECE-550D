@@ -1,0 +1,321 @@
+$comment
+	File created using the following command:
+		vcd file regfile.msim.vcd -direction
+$end
+$date
+	Sun Oct 08 20:37:18 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module decoder5to32_vlg_vec_tst $end
+$var reg 5 ! in [4:0] $end
+$var wire 1 " out [31] $end
+$var wire 1 # out [30] $end
+$var wire 1 $ out [29] $end
+$var wire 1 % out [28] $end
+$var wire 1 & out [27] $end
+$var wire 1 ' out [26] $end
+$var wire 1 ( out [25] $end
+$var wire 1 ) out [24] $end
+$var wire 1 * out [23] $end
+$var wire 1 + out [22] $end
+$var wire 1 , out [21] $end
+$var wire 1 - out [20] $end
+$var wire 1 . out [19] $end
+$var wire 1 / out [18] $end
+$var wire 1 0 out [17] $end
+$var wire 1 1 out [16] $end
+$var wire 1 2 out [15] $end
+$var wire 1 3 out [14] $end
+$var wire 1 4 out [13] $end
+$var wire 1 5 out [12] $end
+$var wire 1 6 out [11] $end
+$var wire 1 7 out [10] $end
+$var wire 1 8 out [9] $end
+$var wire 1 9 out [8] $end
+$var wire 1 : out [7] $end
+$var wire 1 ; out [6] $end
+$var wire 1 < out [5] $end
+$var wire 1 = out [4] $end
+$var wire 1 > out [3] $end
+$var wire 1 ? out [2] $end
+$var wire 1 @ out [1] $end
+$var wire 1 A out [0] $end
+
+$scope module i1 $end
+$var wire 1 B gnd $end
+$var wire 1 C vcc $end
+$var wire 1 D unknown $end
+$var tri1 1 E devclrn $end
+$var tri1 1 F devpor $end
+$var tri1 1 G devoe $end
+$var wire 1 H out[0]~output_o $end
+$var wire 1 I out[1]~output_o $end
+$var wire 1 J out[2]~output_o $end
+$var wire 1 K out[3]~output_o $end
+$var wire 1 L out[4]~output_o $end
+$var wire 1 M out[5]~output_o $end
+$var wire 1 N out[6]~output_o $end
+$var wire 1 O out[7]~output_o $end
+$var wire 1 P out[8]~output_o $end
+$var wire 1 Q out[9]~output_o $end
+$var wire 1 R out[10]~output_o $end
+$var wire 1 S out[11]~output_o $end
+$var wire 1 T out[12]~output_o $end
+$var wire 1 U out[13]~output_o $end
+$var wire 1 V out[14]~output_o $end
+$var wire 1 W out[15]~output_o $end
+$var wire 1 X out[16]~output_o $end
+$var wire 1 Y out[17]~output_o $end
+$var wire 1 Z out[18]~output_o $end
+$var wire 1 [ out[19]~output_o $end
+$var wire 1 \ out[20]~output_o $end
+$var wire 1 ] out[21]~output_o $end
+$var wire 1 ^ out[22]~output_o $end
+$var wire 1 _ out[23]~output_o $end
+$var wire 1 ` out[24]~output_o $end
+$var wire 1 a out[25]~output_o $end
+$var wire 1 b out[26]~output_o $end
+$var wire 1 c out[27]~output_o $end
+$var wire 1 d out[28]~output_o $end
+$var wire 1 e out[29]~output_o $end
+$var wire 1 f out[30]~output_o $end
+$var wire 1 g out[31]~output_o $end
+$var wire 1 h in[2]~input_o $end
+$var wire 1 i in[3]~input_o $end
+$var wire 1 j decoder1|out[1]~16_combout $end
+$var wire 1 k in[4]~input_o $end
+$var wire 1 l in[1]~input_o $end
+$var wire 1 m in[0]~input_o $end
+$var wire 1 n decoder1|out[0]~21_combout $end
+$var wire 1 o decoder2|decoder1|and2~0_combout $end
+$var wire 1 p decoder1|out[1]~22_combout $end
+$var wire 1 q decoder2|decoder1|and2~1_combout $end
+$var wire 1 r decoder1|out[2]~23_combout $end
+$var wire 1 s decoder2|decoder1|and2~2_combout $end
+$var wire 1 t decoder1|out[3]~24_combout $end
+$var wire 1 u decoder3|decoder0|and0~combout $end
+$var wire 1 v decoder1|out[4]~17_combout $end
+$var wire 1 w decoder1|out[5]~18_combout $end
+$var wire 1 x decoder1|out[6]~19_combout $end
+$var wire 1 y decoder1|out[7]~20_combout $end
+$var wire 1 z decoder2|out[0]~16_combout $end
+$var wire 1 { decoder2|out[1]~17_combout $end
+$var wire 1 | decoder2|out[2]~18_combout $end
+$var wire 1 } decoder2|out[3]~19_combout $end
+$var wire 1 ~ decoder2|out[5]~20_combout $end
+$var wire 1 !! decoder2|out[4]~21_combout $end
+$var wire 1 "! decoder2|out[5]~22_combout $end
+$var wire 1 #! decoder2|out[6]~23_combout $end
+$var wire 1 $! decoder2|out[7]~24_combout $end
+$var wire 1 %! decoder3|out[0]~20_combout $end
+$var wire 1 &! decoder3|out[1]~21_combout $end
+$var wire 1 '! decoder3|out[2]~22_combout $end
+$var wire 1 (! decoder3|out[3]~23_combout $end
+$var wire 1 )! decoder3|out[4]~16_combout $end
+$var wire 1 *! decoder3|out[5]~17_combout $end
+$var wire 1 +! decoder3|out[6]~18_combout $end
+$var wire 1 ,! decoder3|out[7]~19_combout $end
+$var wire 1 -! decoder4|out[0]~16_combout $end
+$var wire 1 .! decoder4|out[1]~17_combout $end
+$var wire 1 /! decoder4|out[2]~18_combout $end
+$var wire 1 0! decoder4|out[3]~19_combout $end
+$var wire 1 1! decoder4|out[4]~20_combout $end
+$var wire 1 2! decoder4|out[5]~21_combout $end
+$var wire 1 3! decoder4|out[6]~22_combout $end
+$var wire 1 4! decoder4|out[7]~23_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0B
+1C
+xD
+1E
+1F
+1G
+1H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+1j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+1v
+0w
+0x
+0y
+1z
+0{
+0|
+0}
+0~
+1!!
+0"!
+0#!
+0$!
+1%!
+0&!
+0'!
+0(!
+1)!
+0*!
+0+!
+0,!
+1-!
+0.!
+0/!
+00!
+11!
+02!
+03!
+04!
+$end
+#10000
+b100 !
+b101 !
+1m
+1h
+1u
+1o
+1n
+0v
+0j
+1L
+0H
+1v
+0A
+1=
+1w
+1M
+0L
+0=
+1<
+#400000
+b10101 !
+b11101 !
+b11111 !
+1l
+1i
+1k
+1s
+0o
+1~
+0w
+0M
+0<
+14!
+1g
+1"
+#690000
+b11011 !
+b11010 !
+b1010 !
+b10 !
+b0 !
+0m
+0l
+0h
+0i
+0k
+0!!
+0u
+0s
+0~
+1j
+04!
+1t
+1K
+0g
+1T
+1!!
+0n
+15
+0"
+1>
+0t
+0K
+1H
+0T
+05
+1A
+0>
+#1000000

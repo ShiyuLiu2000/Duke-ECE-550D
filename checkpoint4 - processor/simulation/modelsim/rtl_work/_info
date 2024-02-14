@@ -1,0 +1,343 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/simulation/modelsim
+valu
+Z1 !s110 1698895148
+!i10b 1
+!s100 CM2POFHhm`MRQRPIcjMQG0
+IWJgZ2NNz8@Nj:OT<S71O<3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1698769155
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/alu.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1698895148.000000
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor}
+Z7 tCvgOpt 0
+vcontrolCircuit
+Z8 !s110 1698895149
+!i10b 1
+!s100 P8TEbU_LRE[AoeXH:EmB[2
+IOJ^VE5fFDk`@=27?bI]5n3
+R2
+R0
+w1698795543
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/controlCircuit.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/controlCircuit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/controlCircuit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/controlCircuit.v|
+!i113 1
+R5
+R6
+R7
+ncontrol@circuit
+vdecodeInstruction
+R8
+!i10b 1
+!s100 iS`dVJECa7>geGVFc3[D52
+IJfG4HIJ:]]R0KUi[J4RUK0
+R2
+R0
+w1698794219
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/decodeInstruction.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/decodeInstruction.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1698895149.000000
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/decodeInstruction.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/decodeInstruction.v|
+!i113 1
+R5
+R6
+R7
+ndecode@instruction
+vdmem
+R8
+!i10b 1
+!s100 Ig2U5z`UQ`aKkLjgP8hjc1
+I]fmIG^cY=h[X^:An`BMVh2
+R2
+R0
+w1698769583
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dmem.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dmem.v
+Z10 L0 40
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dmem.v|
+!i113 1
+R5
+R6
+R7
+vfrequency_divider_by4
+R8
+!i10b 1
+!s100 _85eJ^WD8TR>^1@3:IK3k1
+IDd8W:V7F2kae;z>_P]hNO1
+R2
+R0
+w1698782464
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/frequency_divider_by4.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/frequency_divider_by4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/frequency_divider_by4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/frequency_divider_by4.v|
+!i113 1
+R5
+R6
+R7
+vimem
+R8
+!i10b 1
+!s100 AhAoUWl@88B4Eg[zJQ]XX3
+IN^J:H6eOO<n9X8h586G4:3
+R2
+R0
+w1698803479
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/imem.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/imem.v
+R10
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/imem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/imem.v|
+!i113 1
+R5
+R6
+R7
+vmux
+R1
+!i10b 1
+!s100 0k<HMe:1XhH7]<mb<:cUP0
+I;MY;M^HJcQe;SPEc4II2L3
+R2
+R0
+w1698715483
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux.v|
+!i113 1
+R5
+R6
+R7
+vmux_32bits
+R8
+!i10b 1
+!s100 XdQYkQB_`L5XA<hb2DQ6A3
+IkdzbHWOza@E1@3hJT3NMG1
+R2
+R0
+w1698750863
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_32bits.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_32bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_32bits.v|
+!i113 1
+R5
+R6
+R7
+vmux_5bits
+R8
+!i10b 1
+!s100 =>BZkz_48e18oI>?`Wjez0
+I`4jB3X]IV4[fkl2keM^][3
+R2
+R0
+w1698751442
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_5bits.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_5bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_5bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/mux_5bits.v|
+!i113 1
+R5
+R6
+R7
+vmydffe
+R1
+!i10b 1
+!s100 ^B9RUW5@8F`gzTEkQ<i<e2
+I>oeU11MaQSjnf=3lf>>Yl2
+R2
+R0
+w1698715442
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dffe.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dffe.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dffe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/dffe.v|
+!i113 1
+R5
+R6
+R7
+vprocessor
+R1
+!i10b 1
+!s100 LFGXH;8m`43hgE6nUPBDL0
+IhjH_oML_Sb7<FoWXEBDeU0
+R2
+R0
+w1698799444
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/processor.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/processor.v
+L0 50
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/processor.v|
+!i113 1
+R5
+R6
+R7
+vregfile
+R1
+!i10b 1
+!s100 =W4YeYh>3kkG6^XN@]O3M1
+I7<cneL7gM1ld_n6GKL9df3
+R2
+R0
+w1698769174
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/regfile.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/regfile.v|
+!i113 1
+R5
+R6
+R7
+vsignExtension
+R8
+!i10b 1
+!s100 ][LJI3E2c`G>HRXO]THbS0
+I?iNdYma:[njO2KHbD_K410
+R2
+R0
+w1698753665
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/signExtension.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/signExtension.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/signExtension.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/signExtension.v|
+!i113 1
+R5
+R6
+R7
+nsign@extension
+vskeleton
+R1
+!i10b 1
+!s100 1;X3aTTYmB?4[EUSYa[?>2
+I8Pnd=zI@0af7aHDVhoJDe3
+R2
+R0
+w1698796274
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton.v|
+!i113 1
+R5
+R6
+R7
+vskeleton_tb
+R8
+!i10b 1
+!s100 Mc0Y:H3>V>ncG:FJDBKi_2
+I9UkbGBg2_NBNYmhh]nk533
+R2
+R0
+w1698768951
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton_tb.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint4 - processor/skeleton_tb.v|
+!i113 1
+R5
+R6
+R7

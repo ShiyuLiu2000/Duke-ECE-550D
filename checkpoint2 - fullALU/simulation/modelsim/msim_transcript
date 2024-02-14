@@ -1,0 +1,282 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/addition.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/addition.v 
+# -- Compiling module addition
+# 
+# Top level modules:
+# 	addition
+# End time: 01:36:22 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 01:36:22 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v 
+# -- Compiling module CSA_32bits
+# 
+# Top level modules:
+# 	CSA_32bits
+# End time: 01:36:22 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 01:36:22 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 01:36:22 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux_16bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux_16bits.v 
+# -- Compiling module mux_16bits
+# 
+# Top level modules:
+# 	mux_16bits
+# End time: 01:36:22 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v 
+# -- Compiling module RCA_16bits
+# 
+# Top level modules:
+# 	RCA_16bits
+# End time: 01:36:22 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/subtraction.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:22 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/subtraction.v 
+# -- Compiling module subtraction
+# 
+# Top level modules:
+# 	subtraction
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/is_less_than.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:23 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/is_less_than.v 
+# -- Compiling module is_less_than
+# 
+# Top level modules:
+# 	is_less_than
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/is_not_equal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:23 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/is_not_equal.v 
+# -- Compiling module is_not_equal
+# 
+# Top level modules:
+# 	is_not_equal
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/bitwise_or.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:23 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/bitwise_or.v 
+# -- Compiling module bitwise_or
+# 
+# Top level modules:
+# 	bitwise_or
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/bitwise_and.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:23 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/bitwise_and.v 
+# -- Compiling module bitwise_and
+# 
+# Top level modules:
+# 	bitwise_and
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:23 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v 
+# -- Compiling module shift_left
+# 
+# Top level modules:
+# 	shift_left
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_right.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:23 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_right.v 
+# -- Compiling module shift_right
+# 
+# Top level modules:
+# 	shift_right
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Daenerys/Desktop/ECE\ 550D/project/checkpoint2\ -\ fullALU {C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/alu_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:36:23 on Sep 24,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU" C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 01:36:23 on Sep 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 01:36:23 on Sep 24,2023
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.addition
+# Loading work.CSA_32bits
+# Loading work.RCA_16bits
+# Loading work.full_adder
+# Loading work.mux
+# Loading work.mux_16bits
+# Loading work.subtraction
+# Loading work.is_less_than
+# Loading work.is_not_equal
+# Loading work.bitwise_or
+# Loading work.bitwise_and
+# Loading work.shift_left
+# Loading work.shift_right
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/addition.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/addition0/CSA0 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(15): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/addition0/CSA0/RCA1 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/addition0/CSA0/RCA2 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/subtraction.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/subtraction0/CSA0 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(15): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/subtraction0/CSA0/RCA1 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/subtraction0/CSA0/RCA2 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/subtraction.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/less0/subtraction0/CSA0 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(15): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/less0/subtraction0/CSA0/RCA1 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/less0/subtraction0/CSA0/RCA2 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/subtraction.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/not_equal0/subtraction0/CSA0 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(15): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/not_equal0/subtraction0/CSA0/RCA1 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/CSA_32bits.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/not_equal0/subtraction0/CSA0/RCA2 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/RCA_16bits.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(12): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/mux0 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(21): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/mux2 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(22): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/mux3 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop2_0[0]/mux5 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop2_0[1]/mux5 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop2_0[2]/mux5 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop2_0[3]/mux5 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[0]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[1]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[2]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[3]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[4]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[5]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[6]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop3_0[7]/mux7 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[0]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[1]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[2]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[3]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[4]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[5]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[6]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[7]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[8]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[9]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[10]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[11]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[12]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[13]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[14]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# ** Warning: (vsim-3015) C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/shift_left.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/left0/sub_loop4_0[15]/mux9 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/mux.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# ** Note: $stop    : C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/alu_tb.v(51)
+#    Time: 1560 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint2 - fullALU/alu_tb.v line 51
+# End time: 01:36:50 on Sep 24,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 43

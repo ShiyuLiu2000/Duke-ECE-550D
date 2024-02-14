@@ -1,0 +1,201 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint1 - ALU/simulation/qsim
+valu
+Z1 !s110 1695138245
+!i10b 1
+!s100 H@:jhf??@=nh9^0F9dSmg1
+IlA12MWcm6k14<L<9KP^oE0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1695138244
+Z4 8alu.vo
+Z5 Falu.vo
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1695138245.000000
+Z9 !s107 alu.vo|
+Z10 !s90 -work|work|alu.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+valu_vlg_vec_tst
+R1
+!i10b 1
+!s100 QYCP1ThEANzSzXcNCULPC0
+I9?GU[0MTdP]g_[31dzlc=2
+R2
+R0
+w1695138243
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+Z13 L0 30
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 O_G15e0>dh^<h7jZ0nnE03
+I_7GF4a1=^[L3_ggJT6B=E1
+R2
+R0
+R3
+R4
+R5
+L0 4883
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmux
+Z14 !s110 1695080727
+!i10b 1
+!s100 iM_Z7b`m1TDHUj6@NT0za3
+I[=K1LkUT8VW9F504Je4F[3
+R2
+R0
+w1695080727
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1695080727.000000
+R9
+R10
+!i113 1
+R11
+R12
+vmux_16bits
+Z16 !s110 1695097801
+!i10b 1
+!s100 ^JZC;[5OBTD8We;>H<lX21
+I=O_THI6QJkO8EB3E45BMG0
+R2
+R0
+w1695097800
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z17 !s108 1695097801.000000
+R9
+R10
+!i113 1
+R11
+R12
+vmux_16bits_vlg_vec_tst
+R16
+!i10b 1
+!s100 67YfmbcXN4_fLMgQN>UH]3
+I8m`[hjd]5lLRYo^c;:VSW1
+R2
+R0
+w1695097799
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R17
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R11
+R12
+vmux_vlg_vec_tst
+R14
+!i10b 1
+!s100 VA0Cg2;fBCBZl[`];m_CP0
+IXO[NM>2`^Lg^X5_TWzn_F1
+R2
+R0
+w1695080726
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R15
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+vRCA_16bits
+Z18 !s110 1695079514
+!i10b 1
+!s100 9ZIOTk1LBDYzP^6SRm7B`3
+I?RPa@YAE8hW@]>?CIbN^P1
+R2
+R0
+w1695079511
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z19 !s108 1695079514.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@r@c@a_16bits
+vRCA_16bits_vlg_vec_tst
+R18
+!i10b 1
+!s100 e[o@_>KEKXad@kAb9IRS[0
+ITXe^IP:ST4kNHVmFoQ[4]0
+R2
+R0
+w1695079510
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R19
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@r@c@a_16bits_vlg_vec_tst

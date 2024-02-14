@@ -1,0 +1,471 @@
+Analysis & Synthesis report for regfile
+Tue Oct 10 17:53:59 2023
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Port Connectivity Checks: "mydffe:sub_loop1[0].dffe0"
+ 11. Port Connectivity Checks: "decoder5to32:decoder0|decoder2to4:decoder0"
+ 12. Port Connectivity Checks: "decoder5to32:decoder0"
+ 13. Post-Synthesis Netlist Statistics for Top Partition
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
+ 16. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Oct 10 17:53:59 2023       ;
+; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Revision Name                      ; regfile                                     ;
+; Top-level Entity Name              ; regfile                                     ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 2,508                                       ;
+;     Total combinational functions  ; 1,516                                       ;
+;     Dedicated logic registers      ; 992                                         ;
+; Total registers                    ; 992                                         ;
+; Total pins                         ; 114                                         ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                                      ; regfile            ; regfile            ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; OpenCore Plus hardware evaluation                                          ; Enable             ; Enable             ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processors 7-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                        ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                          ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------+---------+
+; regfile.v                        ; yes             ; User Verilog HDL File  ; C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v      ;         ;
+; dffe.v                           ; yes             ; User Verilog HDL File  ; C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/dffe.v         ;         ;
+; decoder2to4.v                    ; yes             ; User Verilog HDL File  ; C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder2to4.v  ;         ;
+; decoder3to8.v                    ; yes             ; User Verilog HDL File  ; C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder3to8.v  ;         ;
+; decoder5to32.v                   ; yes             ; User Verilog HDL File  ; C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 2,508       ;
+;                                             ;             ;
+; Total combinational functions               ; 1516        ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 1370        ;
+;     -- 3 input functions                    ; 136         ;
+;     -- <=2 input functions                  ; 10          ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 1516        ;
+;     -- arithmetic mode                      ; 0           ;
+;                                             ;             ;
+; Total registers                             ; 992         ;
+;     -- Dedicated logic registers            ; 992         ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 114         ;
+;                                             ;             ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; clock~input ;
+; Maximum fan-out                             ; 992         ;
+; Total fan-out                               ; 10054       ;
+; Average fan-out                             ; 3.67        ;
++---------------------------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                 ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------+--------------+--------------+
+; Compilation Hierarchy Node      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                      ; Entity Name  ; Library Name ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------+--------------+--------------+
+; |regfile                        ; 1516 (1444)         ; 992 (0)                   ; 0           ; 0            ; 0       ; 0         ; 114  ; 0            ; |regfile                                                                 ; regfile      ; work         ;
+;    |decoder5to32:decoder1|      ; 36 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder1                                           ; decoder5to32 ; work         ;
+;       |decoder3to8:decoder1|    ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder1|decoder3to8:decoder1                      ; decoder3to8  ; work         ;
+;       |decoder3to8:decoder2|    ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder1|decoder3to8:decoder2                      ; decoder3to8  ; work         ;
+;       |decoder3to8:decoder3|    ; 11 (8)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder1|decoder3to8:decoder3                      ; decoder3to8  ; work         ;
+;          |decoder2to4:decoder1| ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder1|decoder3to8:decoder3|decoder2to4:decoder1 ; decoder2to4  ; work         ;
+;       |decoder3to8:decoder4|    ; 8 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder1|decoder3to8:decoder4                      ; decoder3to8  ; work         ;
+;          |decoder2to4:decoder0| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder1|decoder3to8:decoder4|decoder2to4:decoder0 ; decoder2to4  ; work         ;
+;    |decoder5to32:decoder2|      ; 36 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder2                                           ; decoder5to32 ; work         ;
+;       |decoder3to8:decoder1|    ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder2|decoder3to8:decoder1                      ; decoder3to8  ; work         ;
+;       |decoder3to8:decoder2|    ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder2|decoder3to8:decoder2                      ; decoder3to8  ; work         ;
+;       |decoder3to8:decoder3|    ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder2|decoder3to8:decoder3                      ; decoder3to8  ; work         ;
+;       |decoder3to8:decoder4|    ; 11 (7)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder2|decoder3to8:decoder4                      ; decoder3to8  ; work         ;
+;          |decoder2to4:decoder0| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder2|decoder3to8:decoder4|decoder2to4:decoder0 ; decoder2to4  ; work         ;
+;          |decoder2to4:decoder1| ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|decoder5to32:decoder2|decoder3to8:decoder4|decoder2to4:decoder1 ; decoder2to4  ; work         ;
+;    |mydffe:sub_loop1[10].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[10].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[11].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[11].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[12].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[12].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[13].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[13].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[14].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[14].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[15].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[15].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[16].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[16].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[17].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[17].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[18].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[18].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[19].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[19].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[1].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[1].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[20].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[20].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[21].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[21].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[22].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[22].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[23].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[23].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[24].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[24].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[25].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[25].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[26].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[26].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[27].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[27].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[28].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[28].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[29].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[29].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[2].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[2].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[30].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[30].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[31].dffe0| ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[31].dffe0                                      ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[3].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[3].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[4].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[4].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[5].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[5].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[6].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[6].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[7].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[7].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[8].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[8].dffe0                                       ; mydffe       ; work         ;
+;    |mydffe:sub_loop1[9].dffe0|  ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|mydffe:sub_loop1[9].dffe0                                       ; mydffe       ; work         ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------+--------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                   ;
++----------------------------------------+---------------------------------------------+
+; Register name                          ; Reason for Removal                          ;
++----------------------------------------+---------------------------------------------+
+; mydffe:sub_loop1[0].dffe0|q[0..31]     ; Stuck at GND due to stuck port clock_enable ;
+; Total Number of Removed Registers = 32 ;                                             ;
++----------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 992   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 992   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 992   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------+
+; Port Connectivity Checks: "mydffe:sub_loop1[0].dffe0" ;
++------+-------+----------+-----------------------------+
+; Port ; Type  ; Severity ; Details                     ;
++------+-------+----------+-----------------------------+
+; en   ; Input ; Info     ; Stuck at GND                ;
++------+-------+----------+-----------------------------+
+
+
++------------------------------------------------------------------------+
+; Port Connectivity Checks: "decoder5to32:decoder0|decoder2to4:decoder0" ;
++--------+-------+----------+--------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                    ;
++--------+-------+----------+--------------------------------------------+
+; enable ; Input ; Info     ; Stuck at VCC                               ;
++--------+-------+----------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "decoder5to32:decoder0"                                                                ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; out[0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 114                         ;
+; cycloneiii_ff         ; 992                         ;
+;     ENA CLR           ; 992                         ;
+; cycloneiii_io_obuf    ; 64                          ;
+; cycloneiii_lcell_comb ; 1516                        ;
+;     normal            ; 1516                        ;
+;         2 data inputs ; 10                          ;
+;         3 data inputs ; 136                         ;
+;         4 data inputs ; 1370                        ;
+;                       ;                             ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 4.46                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+    Info: Processing started: Tue Oct 10 17:53:50 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off regfile -c regfile
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file regfile.v
+    Info (12023): Found entity 1: regfile File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file dffe.v
+    Info (12023): Found entity 1: mydffe File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/dffe.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file decoder2to4.v
+    Info (12023): Found entity 1: decoder2to4 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder2to4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decoder3to8.v
+    Info (12023): Found entity 1: decoder3to8 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder3to8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decoder5to32.v
+    Info (12023): Found entity 1: decoder5to32 File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file regfile_tb.v
+    Info (12023): Found entity 1: regfile_tb File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile_tb.v Line: 3
+Info (12127): Elaborating entity "regfile" for the top level hierarchy
+Info (12128): Elaborating entity "decoder5to32" for hierarchy "decoder5to32:decoder0" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 22
+Info (12128): Elaborating entity "decoder2to4" for hierarchy "decoder5to32:decoder0|decoder2to4:decoder0" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v Line: 11
+Warning (10230): Verilog HDL assignment warning at decoder2to4.v(24): truncated value with size 32 to match size of target (1) File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder2to4.v Line: 24
+Info (12128): Elaborating entity "decoder3to8" for hierarchy "decoder5to32:decoder0|decoder3to8:decoder1" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v Line: 12
+Warning (10230): Verilog HDL assignment warning at decoder3to8.v(21): truncated value with size 32 to match size of target (1) File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder3to8.v Line: 21
+Info (12128): Elaborating entity "mydffe" for hierarchy "mydffe:sub_loop1[0].dffe0" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 40
+Warning (13009): TRI or OPNDRN buffers permanently enabled
+    Warning (13010): Node "data_readRegA[0]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[1]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[2]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[3]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[4]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[5]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[6]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[7]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[8]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[9]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[10]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[11]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[12]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[13]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[14]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[15]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[16]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[17]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[18]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[19]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[20]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[21]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[22]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[23]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[24]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[25]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[26]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[27]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[28]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[29]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[30]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegA[31]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[0]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[1]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[2]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[3]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[4]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[5]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[6]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[7]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[8]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[9]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[10]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[11]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[12]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[13]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[14]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[15]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[16]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[17]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[18]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[19]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[20]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[21]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[22]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[23]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[24]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[25]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[26]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[27]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[28]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[29]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[30]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+    Warning (13010): Node "data_readRegB[31]~synth" File: C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v Line: 13
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/output_files/regfile.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 2622 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 50 input pins
+    Info (21059): Implemented 64 output pins
+    Info (21061): Implemented 2508 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 68 warnings
+    Info: Peak virtual memory: 4794 megabytes
+    Info: Processing ended: Tue Oct 10 17:53:59 2023
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:05
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/output_files/regfile.map.smsg.
+
+

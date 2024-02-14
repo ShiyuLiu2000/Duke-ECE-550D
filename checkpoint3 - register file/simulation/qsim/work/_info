@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/simulation/qsim
+vdecoder3to8
+Z1 !s110 1696811345
+!i10b 1
+!s100 c;:ai0BIzg6WYnefFf9PA2
+IIdEVeN@CQQQ9^`0`j<n[b3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1696811344
+Z4 8regfile.vo
+Z5 Fregfile.vo
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1696811345.000000
+Z9 !s107 regfile.vo|
+Z10 !s90 -work|work|regfile.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vdecoder3to8_vlg_vec_tst
+R1
+!i10b 1
+!s100 S?e=A3[Z<BViPEKT>;kIl2
+I7LcY>OzQ=SV]cO43lXziS3
+R2
+R0
+R3
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z13 L0 30
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+vdecoder5to32
+Z14 !s110 1696811838
+!i10b 1
+!s100 NL?iU?c5zoAk9MVU[[6mE3
+I3@ZcU;@X3`gkKanKzE_g@3
+R2
+R0
+Z15 w1696811838
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z16 !s108 1696811838.000000
+R9
+R10
+!i113 1
+R11
+R12
+vdecoder5to32_vlg_vec_tst
+R14
+!i10b 1
+!s100 MSPfQ6KZnWiV@HBnGa1Ye0
+IM7]15[jD3@G<?YkA`ed=32
+R2
+R0
+w1696811837
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R16
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R14
+!i10b 1
+!s100 _djF^6f45mW`=VSa7acXc0
+IZd[_NZnbngUA^9>Ya^4@I3
+R2
+R0
+R15
+R4
+R5
+L0 1349
+R7
+r1
+!s85 0
+31
+R16
+R9
+R10
+!i113 1
+R11
+R12

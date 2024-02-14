@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/simulation/modelsim
+vdecoder2to4
+Z1 !s110 1696974920
+!i10b 1
+!s100 jaWUIZV_LE7D3R]7XfjI:2
+IFYGPQa:EiO_Q[OeN^QGZC0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1696811311
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder2to4.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder2to4.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1696974920.000000
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder2to4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder2to4.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file}
+Z7 tCvgOpt 0
+vdecoder3to8
+R1
+!i10b 1
+!s100 _XUDkWm_[D5Vo13U>7`=T0
+I;4=PY`N;10hEkK73dCD4A0
+R2
+R0
+w1696811306
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder3to8.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder3to8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder3to8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder3to8.v|
+!i113 1
+R5
+R6
+R7
+vdecoder5to32
+Z8 !s110 1696974921
+!i10b 1
+!s100 ^UhBR1Q[lPTH8oalTWe7G1
+IKTl@INY>;:4]:Vh9dbBkG2
+R2
+R0
+w1696962007
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1696974921.000000
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/decoder5to32.v|
+!i113 1
+R5
+R6
+R7
+vmydffe
+R1
+!i10b 1
+!s100 ^B9RUW5@8F`gzTEkQ<i<e2
+IQak62f_O9`R?Kl:JoOQe<0
+R2
+R0
+w1696962140
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/dffe.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/dffe.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/dffe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/dffe.v|
+!i113 1
+R5
+R6
+R7
+vregfile
+R1
+!i10b 1
+!s100 [[O3]2oeU?k]9NP>3=JCj0
+IISW<`Q45Q6?T;fXUf5?9n2
+R2
+R0
+w1696973853
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile.v|
+!i113 1
+R5
+R6
+R7
+vregfile_tb
+R8
+!i10b 1
+!s100 G79@14PIIe0MaOn=3o;R00
+I9QS7:ezMj^002SanFWb@L0
+R2
+R0
+w1696963326
+8C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile_tb.v
+FC:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file|C:/Users/Daenerys/Desktop/ECE 550D/project/checkpoint3 - register file/regfile_tb.v|
+!i113 1
+R5
+R6
+R7

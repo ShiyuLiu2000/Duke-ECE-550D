@@ -1,0 +1,34 @@
+module controlCircuit(Rwe, Rdst, ALUinB, DMwe, Rwd, ALUop);
+
+	// declare input and outputs
+    input [4:0] ALUop;
+    output Rwe, Rdst, ALUinB, DMwe, Rwd;
+
+	 // wire intermediate results
+    wire not_ALUop0, not_ALUop1, not_ALUop2, not_ALUop3, not_ALUop4;
+    wire not_Rwe;
+
+    // Invert all bits of ALUop
+    not not0(not_ALUop0, ALUop[0]);
+    not not1(not_ALUop1, ALUop[1]);
+    not not2(not_ALUop2, ALUop[2]);
+    not not3(not_ALUop3, ALUop[3]);
+    not not4(not_ALUop4, ALUop[4]);
+
+    // Rwe = (ALUop != 00111)
+    and and0(not_Rwe, not_ALUop0, not_ALUop1, ALUop[2], ALUop[3], ALUop[4]);
+	 not not5(Rwe, not_Rwe);
+
+    // Rdst = (ALUop == 00111)
+    not not6(Rdst, Rwe);
+	 
+	 // ALUinB = (ALUop != 00000)
+    or or0(ALUinB, ALUop[0], ALUop[1], ALUop[2], ALUop[3], ALUop[4]);
+
+    // DMwe = (ALUop == 00111)
+    assign DMwe = Rdst;
+
+    // Rwd = (ALUop == 01000)
+    and and1(Rwd, not_ALUop0, ALUop[1], not_ALUop2, not_ALUop3, not_ALUop4);
+
+endmodule
